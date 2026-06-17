@@ -1,8 +1,7 @@
 //! Character→bopomofo (注音) lookup data for Mandarin.
 //!
 //! The pronunciation data is extracted from the g0v moedict-data project
-//! (Ministry of Education dictionaries). This crate ships only the factual
-//! character→reading mapping — no dictionary text — but credits the source.
+//! (Ministry of Education dictionaries).
 //! See `LICENSE` / [`license_notice`].
 
 /// The bundled dictionary as JSON: `[{"c": "一", "bopomofo": ["ㄧ"]}, …]`.
