@@ -1,0 +1,33 @@
+本專案僅包含字元對注音的對照資料（dict.json），不含其他原創程式碼，
+故全部內容依下列資料授權條款釋出。
+
+──────────────────────────────────────────────────────────────────────
+
+資料授權 / Data License
+
+中華民國教育部《重編國語辭典修訂本》、《國語辭典簡編本》、《國語小字典》
+與《成語典》相關資料採「創用 CC 姓名標示－禁止改作 臺灣 3.0 版授權條款」
+（Creative Commons Attribution-NoDerivatives 3.0 Taiwan, CC BY-ND 3.0 TW）釋出。
+
+本授權條款允許使用者重製、散布、傳輸著作（包括商業性利用），
+但不得修改該著作，使用時必須遵照教育部「使用說明」之內容要求。
+
+授權條款全文 / License deed:
+  https://creativecommons.org/licenses/by-nd/3.0/tw/
+教育部辭典使用說明 / MOE terms of use:
+  https://dict.revised.moe.edu.tw/
+
+「禁止改作」係指不得變更辭典本文（釋義等）；格式轉換與後續應用程式
+（如本對照表）為教育部明文允許之利用方式。
+
+──────────────────────────────────────────────────────────────────────
+
+資料來源 / Source & Attribution
+
+本對照資料整理自 g0v「萌典」資料專案：
+  g0v/moedict-data — https://github.com/g0v/moedict-data
+
+其中由 @kcwu 進行之格式轉換與資料整編，作者已依 CC0 1.0（公眾領域貢獻宣告）
+釋出：https://creativecommons.org/publicdomain/zero/1.0/
+
+原始辭典著作權屬中華民國教育部所有。
