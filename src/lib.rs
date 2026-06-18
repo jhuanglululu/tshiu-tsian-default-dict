@@ -1,14 +1,16 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+//! Character -> bopomofo (注音) lookup data for Mandarin.
+//!
+//! The pronunciation data is extracted from the g0v moedict-data project
+//! (Ministry of Education dictionaries).
+//! See `LICENSE` / [`license_notice`].
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+/// The bundled dictionary as JSON: `[{"character": "一", "bopomofo": ["ㄧ"]}, …]`.
+pub static DEFAULT_DICT_STR: &str = include_str!("../dict.json");
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+/// Attribution notice for the bundled data (MOE / moedict-data, CC BY-ND 3.0 TW).
+///
+/// Surface this in an about/credits screen if you want the attribution to
+/// travel with your application.
+pub fn license_notice() -> &'static str {
+    include_str!("../LICENSE")
 }
