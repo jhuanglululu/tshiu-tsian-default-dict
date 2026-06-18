@@ -1,6 +1,8 @@
 [package]
 name = "tshiu-tsian-default-dict"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
+# No clean SPDX id exists for CC BY-ND 3.0 TW, so point at the file instead.
+license-file = "LICENSE"
 
 [dependencies]
